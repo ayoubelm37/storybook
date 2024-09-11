@@ -1,5 +1,12 @@
 {
   "compilerOptions": {
+    "baseUrl": "src", // Set the base URL to your src folder
+    "paths": {
+      "@/*": ["*"] // This maps the alias @ to the src folder
+    },
+
+    "esModuleInterop": true,
+
     "target": "ES2020",
     "useDefineForClassFields": true,
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
