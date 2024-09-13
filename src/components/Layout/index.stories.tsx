@@ -1,5 +1,5 @@
 import { Meta, StoryFn } from '@storybook/react';
-import Layout from './index';
+import Layout from './index.tsx';
 
 export default {
   title: 'Layout/Layout',
